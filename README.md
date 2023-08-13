@@ -17,7 +17,13 @@ Show more options:
 docker run --rm ghcr.io/voicedock/sprnnoise sprnnoise -h
 ```
 ```
-TODO: 
+Usage: sprnnoise [--grpcaddr GRPCADDR] [--loglevel LOGLEVEL] [--logjson]
+
+Options:
+  --grpcaddr GRPCADDR    gRPC API host:port [default: 0.0.0.0:9999, env: GRPC_ADDR]
+  --loglevel LOGLEVEL    log level: debug, info, warn, error, dpanic, panic, fatal [default: info, env: LOG_LEVEL]
+  --logjson              set to true to use JSON format [env: LOG_JSON]
+  --help, -h             display this help and exit
 ```
 
 ## API
